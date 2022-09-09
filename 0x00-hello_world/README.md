@@ -4,3 +4,4 @@ Assembler
 Name
 Hello, puts
 Hello, printf
+size
