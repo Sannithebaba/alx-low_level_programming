@@ -3,3 +3,4 @@ last digit
 print alphabets
 print lowercase
 alphabet soup
+single digit
