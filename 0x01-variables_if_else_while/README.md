@@ -7,3 +7,4 @@ single digit
 single digit number
 lowercase alphabet
 hexadecimal
+combination
