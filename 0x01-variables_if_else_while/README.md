@@ -6,3 +6,4 @@ alphabet soup
 single digit
 single digit number
 lowercase alphabet
+hexadecimal
