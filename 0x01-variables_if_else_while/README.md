@@ -1,1 +1,2 @@
 positive anything
+last digit
