@@ -1,20 +1,12 @@
-#include "_putchar"
-
+#include "unistd.h"
 /**
- *main - Entry point
+ *main - Print putchar
  *
- *Return: Always 0
-*/
+ *Return: Returns 0
+ */
+
 int main(void)
 {
-	char *sh = "_putchar";
-
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
-	_putchar('\n');
-
+	write(1, "_putchar\n", 9);
 	return (0);
 }
