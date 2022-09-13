@@ -1,8 +1,8 @@
-#include "unistd.h"
+#include "main.h"
 /**
- *main -  print_alphabet - prints the alphabet in lowercass with ending new line
+ *print_alphabet - function to print abc
  *
- *Return: void, and prints the alphabet on the standard output
+ *Return: 0
  */
 
 void print_alphabet(void)
