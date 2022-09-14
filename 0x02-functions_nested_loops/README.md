@@ -9,3 +9,4 @@ last digit
 federal agent
 time table
 two integers
+natural numbers
