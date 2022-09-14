@@ -5,3 +5,4 @@ islower
 isalpha
 sign
 absolute value
+last digit
