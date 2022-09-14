@@ -4,3 +4,4 @@ insomia
 islower
 isalpha
 sign
+absolute value
