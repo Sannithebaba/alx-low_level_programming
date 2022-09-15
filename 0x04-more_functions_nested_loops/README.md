@@ -1,2 +1,3 @@
 isupper
 isdigit
+multiplication
