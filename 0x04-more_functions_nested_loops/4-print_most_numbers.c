@@ -1,23 +1,27 @@
 #include "main.h"
 
 /**
- * main - Prints some letters of alphabet
+ * print_most_numbers - Print the numbers since 0 up to 9
  *
- * Return: Always (Success)
+ * Description: Prints the numbers excluding 2 and 4
+ *
+ * Return: The numbers since 0 up to 9
  */
-int main(void)
+void print_most_numbers(void)
 {
-	char c;
+	int x = 0;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (; x <= 9; x++)
 	{
-		if (c != 'e' && c != 'q')
+		if (x == 2 || x == 4)
 		{
-			putchar(c);
+			continue;
+		}
+		else
+		{
+			_putchar(x + '0');
 		}
 	}
 
-	putchar('\n');
-
-	return (0);
+	_putchar('\n');
 }
