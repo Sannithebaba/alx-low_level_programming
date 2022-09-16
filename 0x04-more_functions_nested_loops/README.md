@@ -10,3 +10,4 @@ print square
 buzz
 triangle
 prime factor
+number
