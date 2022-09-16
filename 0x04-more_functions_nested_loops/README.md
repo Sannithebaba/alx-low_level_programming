@@ -7,3 +7,4 @@ more number
 print line
 print diagonal
 print square
+buzz
