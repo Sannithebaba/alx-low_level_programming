@@ -9,3 +9,4 @@ print diagonal
 print square
 buzz
 triangle
+prime factor
