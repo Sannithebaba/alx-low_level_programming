@@ -8,3 +8,4 @@ print line
 print diagonal
 print square
 buzz
+triangle
