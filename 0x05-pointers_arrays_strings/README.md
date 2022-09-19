@@ -5,4 +5,5 @@ puts
 print
 string
 lies
-half 
+half
+print array 
