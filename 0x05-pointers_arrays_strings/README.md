@@ -4,4 +4,5 @@ strlen
 puts
 print
 string
-lies 
+lies
+half 
