@@ -1,4 +1,5 @@
 reset
 swap
 strlen
-puts 
+puts
+print 
