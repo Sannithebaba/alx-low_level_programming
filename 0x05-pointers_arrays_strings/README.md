@@ -3,4 +3,5 @@ swap
 strlen
 puts
 print
-string 
+string
+lies 
