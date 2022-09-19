@@ -7,4 +7,5 @@ string
 lies
 half
 print array
-strcpy 
+strcpy
+atoi 
