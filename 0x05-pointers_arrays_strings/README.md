@@ -6,4 +6,5 @@ print
 string
 lies
 half
-print array 
+print array
+strcpy 
