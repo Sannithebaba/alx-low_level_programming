@@ -1,3 +1,4 @@
 reset
 swap
-strlen 
+strlen
+puts 
