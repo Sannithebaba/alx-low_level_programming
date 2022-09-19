@@ -8,4 +8,5 @@ lies
 half
 print array
 strcpy
-atoi 
+atoi
+keygen 
