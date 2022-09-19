@@ -1,2 +1,3 @@
 reset
-swap 
+swap
+strlen 
