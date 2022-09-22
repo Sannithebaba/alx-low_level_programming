@@ -4,3 +4,4 @@ strncpy
 strcmp
 array
 string
+cap
