@@ -5,3 +5,4 @@ strcmp
 array
 string
 cap
+leet
