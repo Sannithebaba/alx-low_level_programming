@@ -4,3 +4,4 @@ strchr
 strspn
 strpbrk
 strstr
+chessboard
