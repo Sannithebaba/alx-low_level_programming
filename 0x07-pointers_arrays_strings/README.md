@@ -5,3 +5,4 @@ strspn
 strpbrk
 strstr
 chessboard
+diagsums
