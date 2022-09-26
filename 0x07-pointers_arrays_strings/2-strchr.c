@@ -8,7 +8,7 @@
  * Return: pointer to the 1st occurrence of c in s. Null if not found.
  */
 
-char *_strchr(char *s, char c);
+char *_strchr(char *s, char c)
 {
 	for (; *s != '\0'; s++)
 	{
