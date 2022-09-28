@@ -1,1 +1,2 @@
 puts
+print rev
