@@ -2,7 +2,6 @@
 
 int is_palindrome(char *s);
 int _get_rev(char *s, char *d);
-int compare(char *s1, char *s2);
 	
 /**
  * is_palindrome - finds if a string is a palindrome
