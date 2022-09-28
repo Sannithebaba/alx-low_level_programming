@@ -4,3 +4,4 @@ strlen
 factorial
 pow
 sqrt
+prime number
