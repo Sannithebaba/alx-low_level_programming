@@ -1,2 +1,3 @@
 puts
 print rev
+strlen
