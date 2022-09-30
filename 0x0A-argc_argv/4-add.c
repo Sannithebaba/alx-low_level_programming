@@ -1,29 +1,42 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - adds positive numbers and prints the result
  * @argc: number of arguments passed
  * @argv: pointer to array of arguments passed
+ *
  * Return: 0 on success
  */
+
 int main(int argc, char *argv[])
 {
-	int i, sum = 0;
+	int res = 0;
+	int num = 0;
+	char *ptr = 0;
 
-	if (argc < 1)
-		return (0);
-
-	for (i = 1; i < argc; i++)
+	if (argc < 2)
 	{
-		if (!atoi(argv[i]))
+		printf("0\n");
+		return (0);
+	}
+
+	++argv;
+	--argc;
+	while (argc--)
+	{
+		num = (int)strtol(*argv, &ptr, 10);
+		res = res + num;
+
+		if (*ptr != 0 || num < 0 || res < 0)
 		{
-			printf("%s\n", "Error");
+			printf("Error\n");
 			return (1);
 		}
-		sum += atoi(argv[i]);
+		++argv;
 	}
-	printf("%d\n", sum);
+	printf("%d\n", res);
 
 	return (0);
 }
