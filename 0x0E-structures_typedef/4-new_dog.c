@@ -1,9 +1,9 @@
 #include "dog.h"
 #include <stdlib.h>
 
-dog_t *new_dog(char *name, float age, char *owner)
-int _strlen(char *s)
-char *_memcpy(char *dest, char *src, unsigned int n)
+dog_t *new_dog(char *name, float age, char *owner);
+int _strlen(char *s);
+char *_memcpy(char *dest, char *src, unsigned int n);
 
 /**
  * new_dog - creates a new dog
