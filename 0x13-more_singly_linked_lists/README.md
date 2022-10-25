@@ -8,3 +8,4 @@
 7 - a function that returns the nth node of a listint_t linked list
 8 - a function that returns the sum of all the data (n) of a listint_t linked list
 9 - a function that inserts a new node at a given position
+10 - a function that deletes the node at index index of a listint_t linked list
